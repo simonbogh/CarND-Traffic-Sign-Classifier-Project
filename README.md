@@ -1,20 +1,20 @@
-# **Traffic Sign Recognition**
+# Traffic Sign Classification Project for Self-Driving Cars
 
-## Writeup
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+Self-Driving Car Engineer Nanodegree Program
 
 ---
+## Project Details
 
-**Build a Traffic Sign Recognition Project**
+In this project, Deep Convolutional Neural Network (CNN) is implemented to classify traffic signs. A model is trained and validated so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, the model is tested on additional images of German traffic signs found on the internet, that were not previously present in the dataset.
 
-The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
+![image](docs/traffic_signs.png)
+
+The goals / steps of the project are the following:
+* Load the data set
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
 * Use the model to make predictions on new images
 * Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
 
 
 [//]: # (Image References)
@@ -28,11 +28,10 @@ The goals / steps of this project are the following:
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
-## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
+
 
 ---
-### Writeup / README
+## Implementation Details
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
