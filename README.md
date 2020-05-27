@@ -5,7 +5,12 @@ Self-Driving Car Engineer Nanodegree Program
 ---
 ## Project Details
 
-In this project, Deep Convolutional Neural Network (CNN) is implemented to classify traffic signs. A model is trained and validated so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, the model is tested on additional images of German traffic signs found on the internet, that were not previously present in the dataset.
+In this project, a Deep Convolutional Neural Network (CNN) is implemented to classify traffic signs. A model is trained and validated so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, the model is tested on additional images of German traffic signs found on the internet, that were not previously present in the dataset.
+
+The project submission includes:
+* `Traffic_Sign_Classifier.ipynb`: Ipython notebook with the code implementation
+* `Traffic_Sign_Classifier.html`: HTML output of the code implementation
+* `README.md`: a writeup report covering the implementation details and results
 
 ![image](docs/traffic_signs.png)
 
